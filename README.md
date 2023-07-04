@@ -24,7 +24,7 @@ Assim, foi implementada criptografia no chat dos servidores, garantindo **segura
 
 ### Execução
 Para testar o código, compile-o com o comando `make` (ou em modo de debug, garantindo um log de informações, com `make debug`).
-O servidor será iniciado na porta `6667` (essa configuração está contida na variável `static string PORT{}` no arquivo ![`Conn.hpp`](src/Utils/Conn.hpp)). O programa cliente também será iniciado.
+O servidor será iniciado na porta `6667` (essa configuração está contida na variável `static string PORT{}` no arquivo [`Conn.hpp`](src/Utils/Conn.hpp)). O programa cliente também será iniciado.
 
 ### Uso
 
